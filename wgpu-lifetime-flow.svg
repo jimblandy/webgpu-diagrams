@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="wgpu-lifetime-flow.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0028968"
+     inkscape:cx="560.87524"
+     inkscape:cy="396.85039"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     inkscape:object-nodes="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-bbox="false"
+     inkscape:bbox-paths="false"
+     inkscape:bbox-nodes="false"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="false" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path12469" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-3-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-8-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-69" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-4-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-69-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-4-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-69-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-6-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-2-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-40"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-62" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-66"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-40-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-62-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-8-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-0-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-8-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-0-82" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-8-2-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-0-82-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send-8-2-9-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path12469-0-82-6-1" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="46.258495"
+       y="85.002876"
+       id="text2292"><tspan
+         sodipodi:role="line"
+         id="tspan2290"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="46.258495"
+         y="85.002876" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.53997px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Normal';stroke-width:0.264583"
+       x="28.466772"
+       y="97.481544"
+       id="text8202"><tspan
+         sodipodi:role="line"
+         id="tspan8200"
+         style="stroke-width:0.264583"
+         x="28.466772"
+         y="97.481544">future_suspected_buffers</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 17.833712,103.87185 c -0.310557,-6.539706 6.553344,-7.489966 9.831255,-7.489966"
+       id="path12395" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-9)"
+       d="m 17.833712,103.87185 c -0.319491,-6.727826 24.065269,-6.193646 35.453614,-3.905266 10.322912,2.074286 22.605437,0.475956 30.130805,-2.16797"
+       id="path12395-4"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-3)"
+       d="m 71.156882,117.49979 c 0,-12.84374 11.962395,-20.656476 18.263277,-20.656476"
+       id="path12395-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-3-3)"
+       d="m 79.857875,74.028272 c 0,12.843732 3.261402,22.815042 9.562284,22.815042"
+       id="path12395-8-8"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="-78.05024"
+       y="80.101257"
+       id="text5355"
+       transform="rotate(-52.029845)"><tspan
+         sodipodi:role="line"
+         id="tspan5353"
+         style="stroke-width:0.264583"
+         x="-78.05024"
+         y="80.101257">buffer_drop</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.53997px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="90.863945"
+       y="94.509155"
+       id="text8169"><tspan
+         sodipodi:role="line"
+         id="tspan8167"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="90.863945"
+         y="94.509155">LifetimeTracker::</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="90.863945"
+         y="97.769135"
+         id="tspan8171">suspected_resources::</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="90.863945"
+         y="101.02911"
+         id="tspan8173">buffers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.53997px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="95.248528"
+       y="32.40379"
+       id="text8169-31"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="95.248528"
+         y="32.40379"
+         id="tspan8173-3">Device::</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="95.248528"
+         y="35.663769"
+         id="tspan153497">pending_writes.</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="95.248528"
+         y="38.923748"
+         id="tspan153495">temp_resources</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="M 65.821367,96.843314 H 89.420159"
+       id="path8305"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-8)"
+       d="m 71.464252,29.741738 c 11.635143,0 11.600753,5.289791 21.844343,5.289791"
+       id="path8305-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-8-2)"
+       d="m 71.464252,29.741738 c 27.313826,0 28.204341,55.137016 51.852208,55.137016"
+       id="path8305-5-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-8-2-9)"
+       d="m 71.464255,39.867117 c 27.31382,0 28.20434,45.011637 51.852205,45.011637"
+       id="path8305-5-9-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-8-2-9-2)"
+       d="m 71.46426,49.788478 c 27.31382,0 28.20434,35.090276 51.8522,35.090276"
+       id="path8305-5-9-0-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-8-9)"
+       d="m 71.464255,20.122912 c 11.63514,0 11.60075,14.908617 21.84434,14.908617"
+       id="path8305-5-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-66)"
+       d="m 71.464255,39.867117 c 11.59582,0 10.76486,-4.835588 21.84434,-4.835588"
+       id="path8305-0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="66.421135"
+       y="92.777855"
+       id="text10295"><tspan
+         sodipodi:role="line"
+         id="tspan10293"
+         style="stroke-width:0.264583"
+         x="66.421135"
+         y="92.777855">LifetimeTracker::</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="66.421135"
+         y="95.159096"
+         id="tspan10297">post_submit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="-71.659866"
+       y="110.90418"
+       id="text14069"
+       transform="rotate(-63.333399)"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="-71.659866"
+         y="110.90418"
+         id="tspan14071">Device::maintain,</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="-71.659866"
+         y="113.28542"
+         id="tspan26392">Device::untrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="-20.645012"
+       y="128.90253"
+       id="text14069-4"
+       transform="rotate(-30.37815)"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="-20.645012"
+         y="128.90253"
+         id="tspan26392-7">Global:::</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="-20.645012"
+         y="131.28377"
+         id="tspan74701">queue_submit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+       x="68.257545"
+       y="120.40561"
+       id="text20051"><tspan
+         sodipodi:role="line"
+         id="tspan20049"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="68.257545"
+         y="120.40561">Device::</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="68.257545"
+         y="123.58057"
+         id="tspan20053">temp_suspected</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+       x="33.317085"
+       y="128.38669"
+       id="text20051-5"><tspan
+         sodipodi:role="line"
+         id="tspan20049-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="33.317085"
+         y="128.38669">CommandBuffer::</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="33.317085"
+         y="131.56165"
+         id="tspan20053-8">trackers::</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="33.317085"
+         y="134.73662"
+         id="tspan80094">buffers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+       x="44.897141"
+       y="71.968529"
+       id="text26910"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="44.897141"
+         y="71.968529"
+         id="tspan55890">RenderBundle::used</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="97.848091"
+       y="-58.018738"
+       id="text31602"
+       transform="rotate(73.651107)"><tspan
+         sodipodi:role="line"
+         id="tspan31600"
+         style="font-size:1.90499px;stroke-width:0.264583"
+         x="97.848091"
+         y="-58.018738">LifetimeTracker::</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.90499px;stroke-width:0.264583"
+         x="97.848091"
+         y="-55.637501"
+         id="tspan56076">triage_suspected</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="131.33659"
+       y="87.36219"
+       id="text31602-9-11"
+       transform="rotate(-1.348893)"><tspan
+         sodipodi:role="line"
+         style="font-size:1.90499px;stroke-width:0.264583"
+         x="131.33659"
+         y="87.36219"
+         id="tspan56076-7-50" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="123.29683"
+       y="-168.74353"
+       id="text31602-9-1"
+       transform="rotate(72.323425)"><tspan
+         sodipodi:role="line"
+         id="tspan31600-7-0"
+         style="font-size:1.90499px;stroke-width:0.264583"
+         x="123.29683"
+         y="-168.74353">LifetimeTracker::</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.90499px;stroke-width:0.264583"
+         x="123.29683"
+         y="-166.36229"
+         id="tspan56076-7-5">triage_submissions</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="121.70158"
+       y="67.096985"
+       id="text31602-9-9"
+       transform="rotate(-7.9157469)"><tspan
+         sodipodi:role="line"
+         style="font-size:1.90499px;stroke-width:0.264583"
+         x="121.70158"
+         y="67.096985"
+         id="tspan56076-7-6" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+       x="76.603348"
+       y="71.934525"
+       id="text36280"><tspan
+         sodipodi:role="line"
+         id="tspan36278"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="76.603348"
+         y="71.934525">BindGroup::used</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="35.495876"
+       y="94.095505"
+       id="text58999"><tspan
+         sodipodi:role="line"
+         id="tspan58997"
+         style="stroke-width:0.264583"
+         x="35.495876"
+         y="94.095505">(retains RefCount)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="95.012238"
+       y="91.370552"
+       id="text60263"><tspan
+         sodipodi:role="line"
+         id="tspan60261"
+         style="stroke-width:0.264583"
+         x="95.012238"
+         y="91.370552">(no RefCount)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 123.31646,95.700694 h 17.03123 c 19.57351,0 41.32771,-1.67744 63.36768,-1.67744"
+       id="path60629"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-6)"
+       d="m 123.31646,95.700694 h 17.03123 c 7.50256,0 4.80901,-23.371264 20.45656,-23.371264"
+       id="path60629-84"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-40)"
+       d="m 123.31646,84.878754 h 17.03123 c 19.57351,0 41.43484,6.59438 63.4748,6.59438"
+       id="path60629-9"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-40-0)"
+       d="m 119.69465,35.003269 h 150.993"
+       id="path60629-9-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-6-7)"
+       d="m 123.31646,84.878754 h 17.03123 c 7.50256,0 4.80901,-16.108451 20.45656,-16.108451"
+       id="path60629-84-9"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-4)"
+       d="m 119.77086,37.85871 14.89031,4e-6 c 14.65135,4e-6 12.81837,27.313589 25.90154,27.313589"
+       id="path60629-2"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-4-8)"
+       d="m 191.58024,68.971692 c 9.6046,0 1.41608,20.121652 12.13513,20.121652"
+       id="path60629-2-2"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+       x="206.05806"
+       y="89.865562"
+       id="text8169-3"><tspan
+         sodipodi:role="line"
+         id="tspan8167-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="206.05806"
+         y="89.865562">LifetimeTracker::</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="206.05806"
+         y="93.040527"
+         id="tspan8171-9">free_resources::</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="206.05806"
+         y="96.215485"
+         id="tspan8173-2">buffers</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.53997px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+       x="165.11282"
+       y="64.716911"
+       id="text8169-3-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="165.11282"
+         y="64.716911"
+         id="tspan115186">LifetimeTracker::</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="165.11282"
+         y="67.891876"
+         id="tspan8173-2-5">active[i]</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="165.11282"
+         y="71.066833"
+         id="tspan115205">.last_resources</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';stroke-width:0.264583"
+         x="165.11282"
+         y="74.241798"
+         id="tspan115207">.buffers</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 49.752474,125.63846 c 3.975179,-4.78641 7.811531,-5.58944 16.98863,-5.58944"
+       id="path83833"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.90499px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="36.279781"
+       y="142.43605"
+       id="text14069-1"
+       transform="rotate(-9.0561852)"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="36.279781"
+         y="142.43605"
+         id="tspan26392-8">Device::untrack</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 49.834712,132.50738 c 10.276245,0 22.530528,-0.2139 24.27894,-6.73907"
+       id="path90058"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 232.80197,91.261624 37.88568,1e-5"
+       id="path106192"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.905px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="240.02921"
+       y="94.197418"
+       id="text110402"><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="240.02921"
+         y="94.197418"
+         id="tspan234494">LifetimeTracker::</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="240.02921"
+         y="96.578667"
+         id="tspan235818">cleanup</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.905px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="124.25219"
+       y="91.792137"
+       id="text145441"><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="124.25219"
+         y="91.792137"
+         id="tspan145443">LifetimeTracker::</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="124.25219"
+         y="94.173386"
+         id="tspan145447">triage_suspected</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.905px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="51.242069"
+       y="30.35951"
+       id="text145441-4"><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="51.242069"
+         y="30.35951"
+         id="tspan145447-3">Device::buffer_destroy</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.905px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';text-align:end;text-anchor:end;stroke-width:0.264583"
+       x="70.889618"
+       y="16.764933"
+       id="text145441-4-5"><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;text-align:end;text-anchor:end;stroke-width:0.264583"
+         x="70.889618"
+         y="16.764933"
+         id="tspan199261">freeing staging buffer:</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;text-align:end;text-anchor:end;stroke-width:0.264583"
+         x="70.889618"
+         y="19.146181"
+         id="tspan199263">Global::unmap_inner,</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;text-align:end;text-anchor:end;stroke-width:0.264583"
+         x="70.889618"
+         y="21.527433"
+         id="tspan175623">Global::queue_write_buffer,</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;text-align:end;text-anchor:end;stroke-width:0.264583"
+         x="70.889618"
+         y="23.908682"
+         id="tspan164555">Global::queue_write_texture</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.905px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';text-align:end;text-anchor:end;stroke-width:0.264583"
+       x="70.035294"
+       y="49.226681"
+       id="text145441-4-5-2"><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;text-align:end;text-anchor:end;stroke-width:0.264583"
+         x="70.035294"
+         y="49.226681"
+         id="tspan164555-3">error cases in</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;text-align:end;text-anchor:end;stroke-width:0.264583"
+         x="70.035294"
+         y="51.607929"
+         id="tspan232418">device_create_buffer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.905px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="50.516354"
+       y="40.450245"
+       id="text145441-9"><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="50.516354"
+         y="40.450245"
+         id="tspan145447-9">Device::texture_destroy</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.905px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="123.66936"
+       y="80.999657"
+       id="text145441-0"><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="123.66936"
+         y="80.999657"
+         id="tspan145443-8">LifetimeTracker::</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="123.66936"
+         y="83.380905"
+         id="tspan145447-1">schedule_resource_destruction</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.905px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="118.55606"
+       y="30.333704"
+       id="text145441-0-2"><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="118.55606"
+         y="30.333704"
+         id="tspan145447-1-7">PendingWrites::</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.905px;stroke-width:0.264583"
+         x="118.55606"
+         y="32.714951"
+         id="tspan164235">dispose</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.76389px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="118.64956"
+       y="40.842289"
+       id="text179910"><tspan
+         sodipodi:role="line"
+         style="font-size:1.76389px;stroke-width:0.264583"
+         x="118.64956"
+         y="40.842289"
+         id="tspan193358">Global::queue_submit</tspan></text>
+    <rect
+       style="fill:#e6e6e6;stroke:#000000;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect202723"
+       width="20.953007"
+       height="193.91631"
+       x="270.68765"
+       y="8.0418472" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="81.347351"
+       y="-280.30756"
+       id="text109599"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="81.347351"
+         y="-280.30756"
+         id="tspan109605">platform object freed</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="271.85941"
+       y="199.42043"
+       id="text211876"><tspan
+         sodipodi:role="line"
+         id="tspan211874"
+         style="stroke-width:0.264583"
+         x="271.85941"
+         y="199.42043">gooooooooal</tspan></text>
+    <rect
+       style="fill:#eaeaea;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect236153"
+       width="233.87674"
+       height="47.020306"
+       x="18.212069"
+       y="153.91075"
+       ry="4.252284"
+       rx="4.252284" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Droid Sans';-inkscape-font-specification:'Droid Sans, Normal';stroke-width:0.264583"
+       x="26.373674"
+       y="198.72998"
+       id="text239397"><tspan
+         sodipodi:role="line"
+         id="tspan239395"
+         style="font-size:4.23333px;stroke-width:0.264583"
+         x="26.373674"
+         y="198.72998">Device::maintain</tspan></text>
+  </g>
+</svg>
