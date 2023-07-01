@@ -402,20 +402,20 @@
        id="text845-5-1-4-2-5-6"><tspan
          x="75.218407"
          y="142.96954"
-         id="tspan21889"><tspan
+         id="tspan25597"><tspan
            style="font-weight:normal"
-           id="tspan21887">Size known at shader-creation time. Contains no abstract types, runtime-sized arrays, nor arrays whose length is an </tspan></tspan><tspan
+           id="tspan25595">Size known at shader-creation time. Contains no abstract types, runtime-sized arrays, nor arrays whose length is an </tspan></tspan><tspan
          x="75.218407"
          y="145.61537"
-         id="tspan21893"><tspan
+         id="tspan25601"><tspan
            style="font-weight:normal"
-           id="tspan21891">override-expression. 
+           id="tspan25599">override-expression. 
 </tspan></tspan><tspan
          x="75.218407"
          y="148.2612"
-         id="tspan21897"><tspan
+         id="tspan25605"><tspan
            style="font-weight:normal"
-           id="tspan21895">Size known at pipeline-creation time. Contains no abstract types or runtime-sized arrays. </tspan></tspan></text>
+           id="tspan25603">Size known at pipeline-creation time. Contains no abstract types or runtime-sized arrays. </tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
@@ -1072,16 +1072,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
-       x="19.515133"
+       x="17.662867"
        y="81.699188"
        id="text840-9-6-4"><tspan
          sodipodi:role="line"
-         x="19.515133"
+         x="17.662867"
          y="81.699188"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
          id="tspan848-61-2-4">vecN&lt;<tspan
    style="font-style:italic"
-   id="tspan4165">abstract</tspan>&gt;</tspan></text>
+   id="tspan4165">abstract numeric scalar</tspan>&gt;</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
@@ -1139,11 +1139,11 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';stroke-width:0.132291"
-       x="17.991859"
+       x="17.395493"
        y="77.841736"
        id="text845-5-1-4-43"><tspan
          sodipodi:role="line"
-         x="17.991859"
+         x="17.395493"
          y="77.841736"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';stroke-width:0.132291"
          id="tspan3672">numeric vector types</tspan></text>
