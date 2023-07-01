@@ -63,9 +63,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3127514"
-     inkscape:cx="396.87635"
-     inkscape:cy="562.17802"
+     inkscape:zoom="1.2599206"
+     inkscape:cx="396.85039"
+     inkscape:cy="561.14646"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -356,21 +356,21 @@
     <rect
        style="fill:#b2daff;fill-opacity:1;stroke:#000000;stroke-width:0.1325;stroke-opacity:1"
        id="rect1388"
-       width="184.90134"
+       width="146.13008"
        height="15.061616"
-       x="12.102428"
+       x="50.87368"
        y="115.12473"
-       rx="3.2871039"
+       rx="3.2871041"
        ry="3.2871039" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';stroke-width:0.132291"
-       x="15.288159"
+       x="53.697651"
        y="118.26908"
        id="text845-5-1-4-2"><tspan
          sodipodi:role="line"
          id="tspan843-6-2-7-2"
-         x="15.288159"
+         x="53.697651"
          y="118.26908"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';stroke-width:0.132291">structures</tspan></text>
     <text
@@ -476,22 +476,22 @@
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
    id="tspan4419">host-shareable</tspan>&gt;</tspan></text>
     <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.282501;stroke-miterlimit:4;stroke-dasharray:0.84750304,0.84750304;stroke-dashoffset:0.59325213;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.282501;stroke-miterlimit:4;stroke-dasharray:0.847504, 0.847504;stroke-dashoffset:0.593252;stroke-opacity:1"
        id="rect1686-8"
-       width="78.317963"
+       width="79.318741"
        height="110.00924"
-       x="49.41312"
+       x="49.413124"
        y="25.506184"
-       rx="3.2871041"
+       rx="3.2871039"
        ry="3.2871034" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.282501;stroke-miterlimit:4;stroke-dasharray:0.847504, 0.847504;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1686-8-7"
-       width="79.944328"
+       width="80.979561"
        height="118.59133"
-       x="86.19001"
+       x="85.15477"
        y="19.919815"
-       rx="3.2871044"
+       rx="3.2871041"
        ry="3.2871037" />
     <text
        xml:space="preserve"
@@ -1062,18 +1062,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
-       x="53.41069"
+       x="55.582058"
        y="121.71194"
        id="text840-3-29-0-4-9"><tspan
          sodipodi:role="line"
-         x="53.41069"
+         x="55.582058"
          y="121.71194"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
          id="tspan848-5-3-9-7-3">struct <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
    id="tspan1418-6">name</tspan> {</tspan><tspan
          sodipodi:role="line"
-         x="53.41069"
+         x="55.582058"
          y="124.35777"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
          id="tspan1384-0">    <tspan
@@ -1082,37 +1082,10 @@
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
    id="tspan5868">constructible</tspan>;</tspan><tspan
          sodipodi:role="line"
-         x="53.41069"
+         x="55.582058"
          y="127.00359"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
          id="tspan1386-2">};</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
-       x="16.348667"
-       y="121.90302"
-       id="text840-3-29-0-4-9-8"><tspan
-         sodipodi:role="line"
-         x="16.348667"
-         y="121.90302"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
-         id="tspan848-5-3-9-7-3-8">struct <tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
-   id="tspan1418-6-43">name</tspan> {</tspan><tspan
-         sodipodi:role="line"
-         x="16.348667"
-         y="124.54884"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
-         id="tspan1384-0-1">    <tspan
-   style="font-style:italic"
-   id="tspan3922">any member</tspan>: <tspan
-   style="font-style:italic"
-   id="tspan3920">abstract</tspan>;</tspan><tspan
-         sodipodi:role="line"
-         x="16.348667"
-         y="127.19466"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
-         id="tspan1386-2-2">};</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
