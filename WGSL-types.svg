@@ -50,7 +50,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.6356895"
      inkscape:cx="405.33365"
-     inkscape:cy="778.57075"
+     inkscape:cy="779.18211"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -61,7 +61,7 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-nodes="true"
      inkscape:snap-others="true"
@@ -400,19 +400,19 @@
        transform="translate(0,4.2853129)"><tspan
          x="75.218407"
          y="142.96954"
-         id="tspan29"><tspan
+         id="tspan11"><tspan
            style="font-weight:normal"
-           id="tspan28">Size known at shader-creation time. Contains no runtime-sized arrays, nor arrays whose length is a non-const override-expression. </tspan></tspan><tspan
+           id="tspan10">Size known at shader-creation time. Contains no runtime-sized arrays, nor arrays whose length is a non-const override-expression. </tspan></tspan><tspan
          x="75.218407"
          y="145.61537"
-         id="tspan31"><tspan
+         id="tspan13"><tspan
            style="font-weight:normal"
-           id="tspan30">Abstract types have creation-fixed footprint if their concretization has creation-fixed footprint.&#10;</tspan></tspan><tspan
+           id="tspan12">Abstract types have creation-fixed footprint if their concretization has creation-fixed footprint.&#10;</tspan></tspan><tspan
          x="75.218407"
          y="148.2612"
-         id="tspan37"><tspan
+         id="tspan21"><tspan
            style="font-weight:normal"
-           id="tspan32">Size known at pipeline-creation time. Contains no abstract types or runtime-sized arrays. </tspan></tspan></text>
+           id="tspan20">Size known at pipeline-creation time. Contains no abstract types or runtime-sized arrays. </tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
@@ -535,24 +535,20 @@
          y="33.377819"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
          id="tspan1557-6-95">abstract types</tspan></text>
-    <rect
-       style="fill:#ffc7c7;fill-opacity:1;stroke:#000000;stroke-width:0.1325;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+    <path
        id="rect1727"
-       width="100.55111"
-       height="89.554878"
-       x="50.169445"
-       y="158.91663"
-       rx="3.2871037"
-       ry="3.2871037" />
+       style="fill:#ffc7c7;fill-opacity:1;stroke:#000000;stroke-width:0.1325;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 53.456685,158.9164 c -1.821053,0 -3.287137,1.46608 -3.287137,3.28714 v 21.04419 61.93679 c 0,1.82105 1.466084,3.28714 3.287137,3.28714 h 93.976695 l 40.40974,0 c 1.82105,0 3.28714,-1.46609 3.28714,-3.28714 v -61.93679 c 0,-1.82105 -1.46609,-3.28714 -3.28714,-3.28714 l -33.73582,0 c -1.75659,0 -3.38678,-1.29206 -3.38678,-3.22337 l 0,-14.53368 c 0,-1.82106 -1.46609,-3.28714 -3.28714,-3.28714 z"
+       sodipodi:nodetypes="sscsscssssccsss" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
-       x="155.96497"
-       y="183.32581"
+       x="147.73308"
+       y="184.75697"
        id="text840-6-4-4"><tspan
          sodipodi:role="line"
-         x="155.96497"
-         y="183.32581"
+         x="147.73308"
+         y="184.75697"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';stroke-width:0.132291"
          id="tspan18-0"><tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
@@ -1419,7 +1415,7 @@
    id="tspan43">access</tspan>&gt;</tspan></text>
     <g
        id="g95"
-       transform="translate(0,0.30496839)">
+       transform="translate(-8.231887,0.99559645)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
@@ -1539,29 +1535,29 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11666px;line-height:1.25;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
-       x="156.76199"
-       y="237.84502"
+       x="148.53011"
+       y="237.7951"
        id="text840-6-4-4-1"><tspan
          sodipodi:role="line"
-         x="156.76199"
-         y="237.84502"
+         x="148.53011"
+         y="237.7951"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';stroke-width:0.132291"
          id="tspan18-0-0"><tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Italic'"
    id="tspan94">access</tspan> must be one of the following:</tspan><tspan
          sodipodi:role="line"
-         x="156.76199"
-         y="240.54552"
+         x="148.53011"
+         y="240.49561"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
          id="tspan91">       read</tspan><tspan
          sodipodi:role="line"
-         x="156.76199"
-         y="243.19135"
+         x="148.53011"
+         y="243.14143"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
          id="tspan92">       write</tspan><tspan
          sodipodi:role="line"
-         x="156.76199"
-         y="245.83717"
+         x="148.53011"
+         y="245.78726"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.132291"
          id="tspan93">       read_write</tspan></text>
   </g>
